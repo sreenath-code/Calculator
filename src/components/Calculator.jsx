@@ -1,5 +1,5 @@
-import React from "react";
-import '../styles/Calculator.cssgot'
+import React,{useState} from "react";
+
 const Calculator=()=>{
 
   const [input, setInput] = useState("");
@@ -34,7 +34,7 @@ const Calculator=()=>{
           <button onClick={() => handleClick('8')}>8</button>
           <button onClick={() => handleClick('9')}>9</button>
           <button onClick={() => handleClick('0')}>0</button>
-          <button onClick={calculate}>=</button>
+          <button >=</button>
         </div>
       </div>
     </div>
